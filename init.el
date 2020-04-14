@@ -424,3 +424,11 @@
 
 (add-hook 'prog-mode-hook 'whitespace-mode)(setq-default header-line-format
                                                          (list " " (make-string 120 ?-) "|"))
+
+
+;; backup in one place. flat, no tree structure
+(setq backup-directory-alist '(("" . "~/.emacs_backup")))
+
+
+;; no lock files, please
+(setq create-lockfiles nil)
