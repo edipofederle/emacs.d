@@ -432,3 +432,9 @@
 
 ;; no lock files, please
 (setq create-lockfiles nil)
+
+
+(setq sml/theme 'respectful)
+
+;; do not include encoding information when save the file
+(setq ruby-insert-encoding-magic-comment nil)
